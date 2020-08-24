@@ -1,0 +1,100 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+.m_0 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px 0px no-repeat;  background-size: 34px;
+}
+
+.m_1 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -478px no-repeat;
+  background-size: 34px;
+}
+
+.m_2 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -443px no-repeat;
+  background-size: 34px;
+}
+
+.m_3 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -407px no-repeat;
+  background-size: 34px;
+}
+.m_4 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -373px  no-repeat;
+  background-size: 34px;
+}
+.m_5 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -340px   no-repeat;
+  background-size: 34px;
+}
+.m_6 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -309px   no-repeat;
+  background-size: 34px;
+}
+.m_7 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -275px  no-repeat;
+  background-size: 34px;
+}
+.m_8 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -237px   no-repeat;
+  background-size: 34px;
+}
+.m_9 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -172px   no-repeat;
+  background-size: 34px;
+}
+.m_10 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -511px no-repeat;
+  background-size: 34px;
+} 
+.m_11 {
+  background: url(http://cctvjs.net/mine/images/mineicon.bmp) 0px -34px no-repeat;
+  background-size: 34px;
+} 
